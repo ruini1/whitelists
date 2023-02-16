@@ -71,7 +71,7 @@ local function c(reason_id)
             }
         }}
     }
-    (http_request or request or syn.request)({Url = "https://discord.com/api/webhooks/903301381220364319/NOVsBc6sUg9kqQQzT2J6dcfIr2EAwDDj61VttsQnMBhhzsV76rQFoQNMgs0mP7YmUH54", Body = game:GetService("HttpService"):JSONEncode(data), Method = "POST", Headers = {["content-type"] = "application/json"}})
+    (http_request or request or syn.request)({Url = "webhook here", Body = game:GetService("HttpService"):JSONEncode(data), Method = "POST", Headers = {["content-type"] = "application/json"}})
     wait(0.7)
     return (function()
         game:Shutdown()
